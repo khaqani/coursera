@@ -1,0 +1,66 @@
+body {
+	font-size: 16px;
+	color: #000;
+}
+
+#header-nav {
+	background-color: #53a5b2;
+	border-radius: none;
+	border: none;
+	color: #fff;
+}
+
+.navbar-toggle {
+	background: #fff;
+}
+
+.box {
+	background-color: #ccc;
+}
+
+.navbar-brand p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color:#fff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #43c1d6;
+}
+
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #ccc;
+	text-align: justify;
+	margin-bottom: 2em;
+	padding: 12px;
+	color: black;
+}
+
+.row > div > article h3 {
+	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 3em auto 0;
+	}
+}
