@@ -11,7 +11,7 @@ body {
 
 
 header {
-  background-color: lightgray;
+  background-color: #b53471;
 }
 
 
@@ -26,6 +26,7 @@ h1 {
   text-align: center;
   font-family: Cursive;
   color: darkblue;
+  background: #fff;
 }
 
 p {
@@ -45,8 +46,8 @@ li a{
   border-bottom: 2px solid black;
   padding: 5px;
   font-size: 115%;
-  color: white;
-  background-color: grey;
+  color: #000;
+  background-color: #fff;
 }
 
 .top{
